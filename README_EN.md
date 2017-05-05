@@ -2,7 +2,8 @@
 ![](https://jitpack.io/v/FancyOnePoint/BaseLibrary.svg)
 ![](https://img.shields.io/badge/maven-1.0.0-orange.svg)
 
- # BaseLibrary [中文版](https://github.com/FancyOnePoint/BaseLibrary/blob/master/README.md)
+ # BaseLibrary 
+### [中文版](https://github.com/FancyOnePoint/BaseLibrary)
 The library contains BaseActivity、BaseFragmentActivity、BaseFragment、some commonly used custom widgets,ListView/GridView/RecyclerView generic CommonAdapter and some tools,log library and so on.
 
 ## How To Use
