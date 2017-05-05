@@ -1,5 +1,5 @@
 ![](https://img.shields.io/hexpm/l/plug.svg) 
-![](https://img.shields.io/badge/gradle-1.0.0-brightgreen.svg)
+![](https://jitpack.io/v/FancyOnePoint/BaseLibrary.svg)
 ![](https://img.shields.io/badge/maven-1.0.0-orange.svg)
 
  # BaseLibrary
@@ -23,7 +23,7 @@
 2.Add the dependency
 ```
 	dependencies {
-		compile 'com.github.User:Repo:Tag'
+		compile 'com.github.FancyOnePoint:BaseLibrary:1.0.0'
 	}
 ```
 
@@ -44,9 +44,9 @@
 
 ```
 	<dependency>
-	    <groupId>com.github.User</groupId>
-	    <artifactId>Repo</artifactId>
-	    <version>Tag</version>
+	    <groupId>com.github.FancyOnePoint</groupId>
+	    <artifactId>BaseLibrary</artifactId>
+	    <version>1.0.0</version>
 	</dependency>
 ```
 
