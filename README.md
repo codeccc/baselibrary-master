@@ -9,7 +9,7 @@
 
 ### Gradle
 
-1.Add it in your root build.gradle at the end of repositories:
+1.把下面代码添加到项目根目录 build.gradle下:
 
 ```
 	allprojects {
@@ -20,7 +20,7 @@
 	}
 ```
 
-2.Add the dependency
+2.在module的 `build.gradle` 中添加一下依赖:
 ```
 	dependencies {
 		compile 'com.github.FancyOnePoint:BaseLibrary:1.0.0'
@@ -29,7 +29,7 @@
 
 ### Maven
 
-1.Add the JitPack repository to your build file
+1.添加 JitPack 依赖到你的 build 文件中:
 
 ```
 	<repositories>
@@ -40,7 +40,7 @@
 	</repositories>
 ```
 
-2.Add the dependency
+2.添加如下依赖:
 
 ```
 	<dependency>
