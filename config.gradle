@@ -1,0 +1,30 @@
+ext {
+
+    android = [
+            compileSdkVersion: 24,
+            buildToolsVersion: "24.0.0",
+            minSdkVersion    : 16,
+            targetSdkVersion : 21,
+            versionCode      : 1,// app版本号
+            versionName      : "1.0.0",//app版本名
+            multiDexEnabled  : false,// Enabling multidex support.
+            minifyEnabled    : false, //混淆
+            zipAlignEnabled  : true,//Zipalign优化
+            shrinkResources  : false,// 移除无用的resource文件
+
+    ]
+
+    dependencies = [
+            //    日志库-https://github.com/xsfelvis/ZeusLog
+            "zeuslog"           : "com.xsf:zeusLog:1.0.0",
+            //    屏幕适配-https://github.com/hongyangAndroid/AndroidAutoLayout
+            "autolayout"        : "com.zhy:autolayout:1.4.5",
+            //ViewPager 特效--https://github.com/hongyangAndroid/MagicViewPager
+            "magic-viewpager"   : "com.zhy:magic-viewpager:1.0.1",
+            //    图片加载-https://github.com/bumptech/glide
+            "glide"             : "com.github.bumptech.glide:glide:3.7.0",
+            //圆角TextView LinearLayout RelativeLayout-https://github.com/H07000223/FlycoRoundView
+            "FlycoRoundView_Lib": "com.flyco.roundview:FlycoRoundView_Lib:1.1.4@aar",
+            "RecyclerView"      : "com.android.support:recyclerview-v7:24.0.0"
+    ];
+}
