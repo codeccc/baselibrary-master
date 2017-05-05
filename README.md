@@ -1,4 +1,8 @@
-# BaseLibrary
+![](https://img.shields.io/hexpm/l/plug.svg) 
+![](https://img.shields.io/badge/gradle-1.0.0-brightgreen.svg)
+![](https://img.shields.io/badge/maven-1.0.0-orange.svg)
+
+ # BaseLibrary
 包含BaseActivity、BaseFragmentActivity、BaseFragment、一些常用自定义控件,ListView/GridView/RecyclerView通用的CommonAdapter以及一些工具类,日志库等
 
 ## How To Use
