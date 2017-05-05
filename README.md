@@ -2,7 +2,7 @@
 ![](https://jitpack.io/v/FancyOnePoint/BaseLibrary.svg)
 ![](https://img.shields.io/badge/maven-1.0.0-orange.svg)
 
- # BaseLibrary
+ # BaseLibrary [English](https://github.com/FancyOnePoint/BaseLibrary/blob/master/README_EN.md "English")
 包含BaseActivity、BaseFragmentActivity、BaseFragment、一些常用自定义控件,ListView/GridView/RecyclerView通用的CommonAdapter以及一些工具类,日志库等
 
 ## How To Use
