@@ -51,6 +51,18 @@ The library contains BaseActivity、BaseFragmentActivity、BaseFragment、some c
 	</dependency>
 ```
 
+## [Release Notes](https://github.com/codeccc/baselibrary-master/blob/master/docs/update.md "更新日志")
+
+### v1.0.1,2017/5/6
+- update library's minSdkVersion to 14
+
+### v1.0.0,2017/5/5
+
+- support BaseActivity,BaseFragment,BaseFragmentActivity;
+- some commonly used widgets;
+- ListView/Gridview/RecyclerView'sCommonAdapter;
+- some commonly used utils
+
 ## License
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
