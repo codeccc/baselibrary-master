@@ -3,7 +3,7 @@ ext {
     android = [
             compileSdkVersion: 24,
             buildToolsVersion: "24.0.0",
-            minSdkVersion    : 16,
+            minSdkVersion    : 15,
             targetSdkVersion : 21,
             versionCode      : 1,// app版本号
             versionName      : "1.0.0",//app版本名
