@@ -1,6 +1,6 @@
 ![](https://img.shields.io/hexpm/l/plug.svg) 
-![](https://img.shields.io/badge/JitPack-1.0.1-green.svg)
-![](https://img.shields.io/badge/maven-1.0.1-orange.svg)
+![](https://img.shields.io/badge/JitPack-1.0.2-green.svg)
+![](https://img.shields.io/badge/Maven-1.0.2-orange.svg)
 
  # BaseLibrary 
 ### [中文版](https://github.com/FancyOnePoint/BaseLibrary)
@@ -55,7 +55,7 @@ dependencies {
 
 ## [Release Notes](https://github.com/codeccc/baselibrary-master/blob/master/docs/update.md "更新日志")
 
-### v1.0.1,2017/5/6
+### v1.0.2,2017/5/6
 - update library's minSdkVersion to 14
 
 ### v1.0.0,2017/5/5

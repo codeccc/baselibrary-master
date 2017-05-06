@@ -1,6 +1,6 @@
 ![](https://img.shields.io/hexpm/l/plug.svg) 
-![](https://img.shields.io/badge/JitPack-1.0.1-green.svg)
-![](https://img.shields.io/badge/maven-1.0.1-orange.svg)
+![](https://img.shields.io/badge/JitPack-1.0.2-green.svg)
+![](https://img.shields.io/badge/Maven-1.0.2-orange.svg)
 
  # BaseLibrary 
 ### [English](https://github.com/FancyOnePoint/BaseLibrary/blob/master/README_EN.md "English")
@@ -55,7 +55,7 @@ dependencies {
 
 ## [更新日志](https://github.com/codeccc/baselibrary-master/blob/master/docs/update.md "更新日志")
 
-### v1.0.1,2017/5/6
+### v1.0.2,2017/5/6
 - 修改library的minSdkVersion为14
 
 ### v1.0.0,2017/5/5
