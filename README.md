@@ -24,7 +24,7 @@
 2.在module的 `build.gradle` 中添加以下依赖:
 ```
 	dependencies {
-		compile 'com.github.FancyOnePoint:BaseLibrary:1.0.0'
+		compile 'com.github.codeccc:baselibrary-master:1.0.0'
 	}
 ```
 
@@ -45,8 +45,8 @@
 
 ```
 	<dependency>
-	    <groupId>com.github.FancyOnePoint</groupId>
-	    <artifactId>BaseLibrary</artifactId>
+	    <groupId>com.github.codeccc</groupId>
+	    <artifactId>baselibrary-master</artifactId>
 	    <version>1.0.0</version>
 	</dependency>
 ```

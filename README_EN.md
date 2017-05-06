@@ -24,7 +24,7 @@ The library contains BaseActivity、BaseFragmentActivity、BaseFragment、some c
 2.Add the dependency
 ```
 	dependencies {
-		compile 'com.github.FancyOnePoint:BaseLibrary:1.0.0'
+		compile 'com.github.codeccc:baselibrary-master:1.0.0'
 	}
 ```
 
@@ -45,8 +45,8 @@ The library contains BaseActivity、BaseFragmentActivity、BaseFragment、some c
 
 ```
 	<dependency>
-	    <groupId>com.github.FancyOnePoint</groupId>
-	    <artifactId>BaseLibrary</artifactId>
+	    <groupId>com.github.codeccc</groupId>
+	    <artifactId>baselibrary-master</artifactId>
 	    <version>1.0.0</version>
 	</dependency>
 ```
