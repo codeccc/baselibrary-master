@@ -51,6 +51,18 @@
 	</dependency>
 ```
 
+## [更新日志](https://github.com/codeccc/baselibrary-master/docs/update.md "更新日志")
+
+### v1.0.1,2017/5/6
+- 修改library的minSdkVersion为14
+
+### v1.0.0,2017/5/5
+
+- 提供BaseActivity,BaseFragment,BaseFragmentActivity支持;
+- 加入一些常用自定义控件;
+- ListView/Gridview/RecyclerView通用CommonAdapter;
+- 一些常用的工具类
+
 ## License
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
