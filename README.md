@@ -65,7 +65,6 @@ dependencies {
 ```
 
 ### 引用的第三方库
-https://github.com/codeccc/baselibrary-master/blob/master/docs/NOTICE.md
 
 名称 | 说明
 ---|---
