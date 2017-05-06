@@ -2,10 +2,8 @@ package com.wb.base;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.AnimRes;
 import android.support.annotation.ColorInt;
@@ -106,22 +104,22 @@ public abstract class BaseActivity extends AutoLayoutActivity implements View.On
         if (mAllowFullScreen) {
             requestWindowFeature(Window.FEATURE_NO_TITLE); // 取消标题
         }
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            this.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
-        }
-        //最终方案
-        else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            //5.0 全透明实现
-            //getWindow.setStatusBarColor(Color.TRANSPARENT)
-            Window window = getWindow();
-            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-            window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            window.setStatusBarColor(Color.TRANSPARENT);
-        } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            //4.4 全透明状态栏
-            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-        }
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+//            this.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+//        }
+//        //最终方案
+//        else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+//            //5.0 全透明实现
+//            //getWindow.setStatusBarColor(Color.TRANSPARENT)
+//            Window window = getWindow();
+//            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+//            window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
+//            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+//            window.setStatusBarColor(Color.TRANSPARENT);
+//        } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+//            //4.4 全透明状态栏
+//            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+//        }
 
         mContext = this;
 
@@ -449,7 +447,7 @@ public abstract class BaseActivity extends AutoLayoutActivity implements View.On
     }
 
     /**
-     * 淡入淡出加载网络图片
+     * 淡入淡出加载File图片
      *
      * @param imageview 图片控件
      * @param imageFile 本地图片文件File
@@ -459,7 +457,7 @@ public abstract class BaseActivity extends AutoLayoutActivity implements View.On
     }
 
     /**
-     * 淡入淡出加载图片
+     * 根据图片Uri淡入淡出加载图片
      *
      * @param imageview 图片控件
      * @param uri       图片uri
@@ -469,7 +467,7 @@ public abstract class BaseActivity extends AutoLayoutActivity implements View.On
     }
 
     /**
-     * 淡入淡出加载圆形图片
+     * 指定加载失败图片以及加载中占位图加载圆形图片
      *
      * @param imageview        图片控件
      * @param url              图片url
@@ -506,7 +504,7 @@ public abstract class BaseActivity extends AutoLayoutActivity implements View.On
     }
 
     /**
-     * 淡入淡出加载网络图片
+     * 指定加载失败图片以及加载中占位图加载网络图片
      *
      * @param imageview        图片控件
      * @param url              图片url
@@ -591,7 +589,7 @@ public abstract class BaseActivity extends AutoLayoutActivity implements View.On
      * @param width  宽度,MATCH_PARENT = -1, WRAP_CONTENT = -2;
      * @param height 高度,MATCH_PARENT = -1, WRAP_CONTENT = -2;
      */
-    public void setHeight(@NonNull View v, int width, int height) {
+    public void setWidthHeight(@NonNull View v, int width, int height) {
         ViewGroup.LayoutParams lp = v.getLayoutParams();
         lp.height = height;
         lp.width = width;
