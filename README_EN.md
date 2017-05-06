@@ -13,19 +13,19 @@ The library contains BaseActivity、BaseFragmentActivity、BaseFragment、some c
 1.Add it in your root build.gradle at the end of repositories:
 
 ```
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
 2.Add the dependency
 ```
-	dependencies {
-		compile 'com.github.codeccc:baselibrary-master:1.0.0'
-	}
+dependencies {
+	compile 'com.github.codeccc:baselibrary-master:1.0.0'
+}
 ```
 
 ### Maven
@@ -33,22 +33,22 @@ The library contains BaseActivity、BaseFragmentActivity、BaseFragment、some c
 1.Add the JitPack repository to your build file
 
 ```
-	<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+<repositories>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
+</repositories>
 ```
 
 2.Add the dependency
 
 ```
-	<dependency>
-	    <groupId>com.github.codeccc</groupId>
-	    <artifactId>baselibrary-master</artifactId>
-	    <version>1.0.0</version>
-	</dependency>
+<dependency>
+    <groupId>com.github.codeccc</groupId>
+    <artifactId>baselibrary-master</artifactId>
+    <version>1.0.0</version>
+</dependency>
 ```
 
 ## [Release Notes](https://github.com/codeccc/baselibrary-master/blob/master/docs/update.md "更新日志")
