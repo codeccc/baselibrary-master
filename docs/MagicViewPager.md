@@ -5,29 +5,29 @@
 
 * Rotate Y
 
-<img src="https://github.com/codeccc/baselibrary-master/blob/master/screenshot/rotate_y.gif" width="420px"/>
+<img src="https://github.com/codeccc/baselibrary-master/blob/master/docs/screenshot/rotate_y.gif" width="420px"/>
 
 
 * Rotate Down
 
-<img src="https://github.com/codeccc/baselibrary-master/blob/master/screenshot/rotate_down.gif" width="420px"/>
+<img src="https://github.com/codeccc/baselibrary-master/blob/master/docs/screenshot/rotate_down.gif" width="420px"/>
 
 * Rotate Up
 
-<img src="https://github.com/codeccc/baselibrary-master/blob/master/screenshot/rotate_up.gif" width="420px"/>
+<img src="https://github.com/codeccc/baselibrary-master/blob/master/docs/screenshot/rotate_up.gif" width="420px"/>
 
 * Alpha
 
-<img src="https://github.com/codeccc/baselibrary-master/blob/master/screenshot/alpha.gif" width="420px"/>
+<img src="https://github.com/codeccc/baselibrary-master/blob/master/docs/screenshot/alpha.gif" width="420px"/>
 
 * ScaleIn
 
-<img src="https://github.com/codeccc/baselibrary-master/blob/master/screenshot/scaleIn.gif" width="420px"/>
+<img src="https://github.com/codeccc/baselibrary-master/blob/master/docs/screenshot/scaleIn.gif" width="420px"/>
 
 
 * ScaleIn + Alpha + Rotate Down
 
-<img src="https://github.com/codeccc/baselibrary-master/blob/master/screenshot/zuhe.gif" width="420px"/>
+<img src="https://github.com/codeccc/baselibrary-master/blob/master/docs/screenshot/zuhe.gif" width="420px"/>
 
 ## 使用
 
