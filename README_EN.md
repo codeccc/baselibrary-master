@@ -51,6 +51,8 @@ dependencies {
 </dependency>
 ```
 
+### [Have any questions ?](https://github.com/codeccc/baselibrary-master/blob/master/docs/NOTICE.md "常见问题")
+
 ## [Release Notes](https://github.com/codeccc/baselibrary-master/blob/master/docs/update.md "更新日志")
 
 ### v1.0.1,2017/5/6
