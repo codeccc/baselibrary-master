@@ -13,19 +13,19 @@
 1.把下面代码添加到项目根目录 build.gradle下:
 
 ```
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
 2.在module的 `build.gradle` 中添加以下依赖:
 ```
-	dependencies {
-		compile 'com.github.codeccc:baselibrary-master:1.0.0'
-	}
+dependencies {
+	compile 'com.github.codeccc:baselibrary-master:1.0.1'
+}
 ```
 
 ### Maven
@@ -33,22 +33,22 @@
 1.添加 JitPack 依赖到你的 build 文件中:
 
 ```
-	<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+<repositories>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
+</repositories>
 ```
 
 2.添加如下依赖:
 
 ```
-	<dependency>
-	    <groupId>com.github.codeccc</groupId>
-	    <artifactId>baselibrary-master</artifactId>
-	    <version>1.0.0</version>
-	</dependency>
+<dependency>
+    <groupId>com.github.codeccc</groupId>
+    <artifactId>baselibrary-master</artifactId>
+    <version>1.0.1</version>
+</dependency>
 ```
 
 ## [更新日志](https://github.com/codeccc/baselibrary-master/blob/master/docs/update.md "更新日志")
