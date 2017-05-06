@@ -120,7 +120,7 @@ d(object);
 
 - 加载网络图片
 
-
+```
 
     setCircleImage(imageview,url);//加载圆形图片********* 常用  *********
 
@@ -151,7 +151,7 @@ d(object);
     setImageUri(imageview, url,errorResId,  placeholderResId);//指定加载失败图片以及加载中占位图加载图片
 
 
-
+```
 
 - 弹出PopupWindow后更改背景透明度
 
