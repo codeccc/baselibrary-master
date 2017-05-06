@@ -51,7 +51,7 @@
 	</dependency>
 ```
 
-## [更新日志](https://github.com/codeccc/baselibrary-master/docs/update.md "更新日志")
+## [更新日志](https://github.com/codeccc/baselibrary-master/blob/master/docs/update.md "更新日志")
 
 ### v1.0.1,2017/5/6
 - 修改library的minSdkVersion为14
