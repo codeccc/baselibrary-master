@@ -1,6 +1,6 @@
 ![](https://img.shields.io/hexpm/l/plug.svg) 
-![](https://jitpack.io/v/FancyOnePoint/BaseLibrary.svg)
-![](https://img.shields.io/badge/maven-1.0.0-orange.svg)
+![](https://img.shields.io/badge/JitPack-1.0.1-green.svg)
+![](https://img.shields.io/badge/maven-1.0.1-orange.svg)
 
  # BaseLibrary 
 ### [English](https://github.com/FancyOnePoint/BaseLibrary/blob/master/README_EN.md "English")
