@@ -56,12 +56,12 @@ dependencies {
 在项目module下的AndroidManifest.xml中注明设计稿尺寸,如:
 
 ```
-		<meta-data
-            android:name="design_width"
-            android:value="720"/>
-        <meta-data
-            android:name="design_height"
-            android:value="1280"/>
+<meta-data
+    android:name="design_width"
+    android:value="720"/>
+<meta-data
+    android:name="design_height"
+    android:value="1280"/>
 ```
 
 ### 引用的第三方库
