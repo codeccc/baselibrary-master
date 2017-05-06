@@ -30,4 +30,4 @@ dependencies {
 // JitPack Maven
 apply plugin: 'com.github.dcendents.android-maven'
 // Your Group
-group='com.github.FancyOnePoint'
+group='com.github.codeccc'
