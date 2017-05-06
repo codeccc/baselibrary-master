@@ -13,10 +13,10 @@ Android屏幕适配方案，直接填写设计图上的像素尺寸即可完成�
 
 so,看下用法：
 
-<img src="autolayout_08.png"/>
+<img src="https://github.com/hongyangAndroid/AndroidAutoLayout/blob/master/autolayout_08.png"/>
 
 
-<img src="autolayout_09.png"/>
+<img src="https://github.com/hongyangAndroid/AndroidAutoLayout/blob/master/autolayout_09.png"/>
 
 你没有看错，拿到设计稿，在布局文件里面直接填写对应的px即可，px:这里的px并非是Google不建议使用的px，在内部会进行转化处理。
 
@@ -24,11 +24,11 @@ ok，拿一些实际项目的页面，看下不同分辨率下的效果：
 
 左为：768 * 1280 ; 右为：1080 * 1920
 
-<img src="preview/preview_01.png" width="800px"/>
+<img src="https://github.com/hongyangAndroid/AndroidAutoLayout/blob/master/preview/preview_01.png" width="800px"/>
 
-<img src="preview/preview_02.png" width="800px"/>
+<img src="https://github.com/hongyangAndroid/AndroidAutoLayout/blob/master/preview/preview_02.png" width="800px"/>
 
-<img src="preview/preview_03.png" width="800px"/>
+<img src="https://github.com/hongyangAndroid/AndroidAutoLayout/blob/master/preview/preview_03.png" width="800px"/>
 
 
 
@@ -138,11 +138,11 @@ public class UseDeviceSizeApplication extends Application
 然后在你的PreView面板，选择于设计图分辨率一致的设备：
 
 
-<img src="autolayout_07.png" width="480px"/>
+<img src="https://github.com/hongyangAndroid/AndroidAutoLayout/blob/master/autolayout_07.png" width="480px"/>
 
 然后你就可以看到`最为精确的`预览了：
 
-<img src="autolayout_06.png" width="480px"/>
+<img src="https://github.com/hongyangAndroid/AndroidAutoLayout/blob/master/autolayout_06.png" width="480px"/>
 
 两个注意事项：
 
