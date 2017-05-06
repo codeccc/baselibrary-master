@@ -138,11 +138,11 @@ public class UseDeviceSizeApplication extends Application
 然后在你的PreView面板，选择于设计图分辨率一致的设备：
 
 
-<img src="autolayout_07.png" width="480px"/>
+<img src="https://github.com/hongyangAndroid/AndroidAutoLayout/blob/master/autolayout_07.png" width="480px"/>
 
 然后你就可以看到`最为精确的`预览了：
 
-<img src="autolayout_06.png" width="480px"/>
+<img src="https://github.com/hongyangAndroid/AndroidAutoLayout/blob/master/autolayout_06.png" width="480px"/>
 
 两个注意事项：
 
