@@ -24,7 +24,7 @@ allprojects {
 2.Add the dependency
 ```
 dependencies {
-	compile 'com.github.codeccc:baselibrary-master:1.0.1'
+	compile 'com.github.codeccc:baselibrary-master:1.0.2'
 }
 ```
 
@@ -47,7 +47,7 @@ dependencies {
 <dependency>
     <groupId>com.github.codeccc</groupId>
     <artifactId>baselibrary-master</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 </dependency>
 ```
 
